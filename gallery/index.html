@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <!-- toggle button -->
+    <button class="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <aside class="sidebar">
+        <ul class="links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/Menu/index.html">Our Menu</a></li>
+          <li><a href="/gallery/index.html">Gallery</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Order now</a></li>
+        </ul>
+      </aside>
+      <!-- gallery container -->
+    <div class="gallery-container">
+        <div class="title">
+            <h2>Our gallery</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="gallery-item">
+            <!-- get img dynamically -->
+        </div>
+    </div>
+
+    <!-- gallery overlay model -->
+    <div class="gallery-overlay">
+        <div class="gallery-overlay-container">
+           <img src="/gallery/img/Buff-Chilly.jpg" alt="" id="gallery-modal" class="gallery-modal">
+           <button class="close-btn">
+               <i class="fas fa-times"></i>
+           </button> 
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

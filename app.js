@@ -23,3 +23,5 @@ const navMenu = document.querySelector('.sidebar')
 navToggle.addEventListener('click', () => {
     navMenu.classList.toggle('show-sidebar')
 })
+
+// our gallery
